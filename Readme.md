@@ -5,3 +5,4 @@
 -it will cover various domains such as user auth, jwt, tweets and tweet handling, APIs, modelling etc.
 
 -Language: Javascript and its libraries!
+
