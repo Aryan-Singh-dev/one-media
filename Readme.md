@@ -1,7 +1,7 @@
 # Backend Learning Project
 
-In this project i will explore the core concepts of backend by creting a project.
+-In this project I will explore the core concepts of backend by a project.
 
-it will include user auth, jwt, tweets and tweet handling, APIs, modelling etc.
+-it will cover various domains such as user auth, jwt, tweets and tweet handling, APIs, modelling etc.
 
-This will be done by javascript and its libraries!
+-Language: Javascript and its libraries!
