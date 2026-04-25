@@ -7,7 +7,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
-const uploadToCloudinary = async (videoPath) => {
+const uploadToCloudinary =
     async (localFilePath) => {
         try {
             if(!localFilePath) {
@@ -25,7 +25,6 @@ const uploadToCloudinary = async (videoPath) => {
            fs.unlinkSync(localFilePath) //delete the local file if there was an error during the upload process to avoid leaving unnecessary files on the server
            return null; 
         }
-    }
 }
 
 export { uploadToCloudinary };
